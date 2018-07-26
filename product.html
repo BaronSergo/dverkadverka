@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Карточка товара детально</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<div class="page product-page">
+
+
+    <header class="header">
+        <div class="header__top container">
+            <div class="header__brand-block">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Магазин межкомнатных дверей Дверка" width="78" height="79">
+                    <h1>Гипермаркет дверей</h1>
+                </a>
+                <div class="header__brand-slogan">
+                    <span class="header__slogan-desc">Продажа межкомнатных и входных дверей от ведущих производителей.</span>
+                </div>
+            </div>
+            <div class="header__cart">
+                <a href="/cart.html">
+                    <div class="header__cart-label">
+                        <span class="header__cart-icon"></span>
+                        <span class="header__cart-info">Товаров <span class="header__goods-number">0</span><br>
+                        на сумму <span class="header__goods-price">0</span> ₽</span>
+                    </div>
+                </a>
+            </div>
+            <div class="header__contacts">
+                <span class="header__when-call">Звоните с 10.00 до 20.00</span>
+                <div class="header__phones-list">
+                    <a class="header__phones-item" href="tel:+74997556412">+7 (499) <span class="decorated">755-64-12</span></a>
+                    <a class="header__phones-item" href="tel:+74997556412">+7 (499) <span class="decorated">397-72-64</span></a>
+                </div>
+                <span class="header__callback-btn-holder">
+                    <a href="javascript:;" class="header__callback-btn js_modal-opener" data-modal-opener="callback">Обратный звонок</a>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation-mobile container">
+        <div class="navigation-mobile__togglers-wrapper">
+            <div class="navigation-mobile__toggler">
+                <span class="navigation-mobile__toggler--categories">Категории</span>
+            </div>
+            <div class="navigation-mobile__toggler">
+                <span class="navigation-mobile__toggler--menu">Меню</span>
+            </div>
+        </div>
+    
+        <ul class="navigation-mobile__categories navigation-mobile__categories--hidden">
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--actions">
+                <a href="javascript:;">Акции</a>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Межкомнатные</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">По типу</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">По цвету</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Входные</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Аксессуары</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    
+        <ul class="navigation-mobile__menu navigation-mobile__menu--hidden">
+            <li class="navigation-mobile__menu-item">
+                <a href="/about/">О компании</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/articles/">Статьи</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/articles/choice.html">Как выбрать</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/help/">Как заказать</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/installation/">Установка и замер</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/delivery/">Доставка</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/removal/">Самовывоз</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/contacts/">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="/about/" title="О компании">О компании</a></li>
+                <li class="navigation__list-item"><a href="/articles/" title="Статьи">Статьи</a></li>
+                <li class="navigation__list-item"><a href="/articles/choice.html" title="Как выбрать">Как выбрать</a></li>
+                <li class="navigation__list-item"><a href="/help/" title="Как заказать">Как заказать</a></li>
+                <li class="navigation__list-item"><a href="/installation/" title="Установка и замер">Установка и замер</a></li>
+                <li class="navigation__list-item"><a href="/delivery/" title="Доставка">Доставка</a></li>
+                <li class="navigation__list-item"><a href="/removal/" title="Самовывоз">Самовывоз</a></li>
+                <li class="navigation__list-item"><a href="/contacts/" title="Контакты">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="search">
+
+        <div class="container flex">
+            <div class="search__choose-maker-btn-holder">
+                <button class="search__choose-maker-btn js_modal-opener" data-modal-opener="makers">Выберите производителя</button>
+            </div>
+            <div class="search__form-wrapper">
+                <form action="" class="search__form">
+                    <input type="text" placeholder="Введите название..." class="search__form-field">
+                    <button type="submit" class="search__form-submit button">Поиск по каталогу</button>
+                </form>
+            </div>
+        
+            <div class="modal modal--hidden" data-modal-id="makers">
+                <div class="search__choose-maker-modal modal__window">
+                    <h2 class="modal__title">Выберите производителя</h2>
+                    <ul class="search__choose-maker-list">
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 1</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 2</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 3</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 4</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 5</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 6</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 7</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 8</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 9</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 10</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 11</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 12</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 13</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 14</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 15</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 16</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 17</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 18</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 19</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 20</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 21</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 22</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 23</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 24</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 25</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 26</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 27</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 28</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 29</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 30</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 31</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 32</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 33</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 34</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 35</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 36</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 37</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 38</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 39</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 40</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 41</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 42</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 43</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 44</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 45</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 46</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 47</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 48</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 49</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 50</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 51</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 52</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 53</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 54</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 55</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 56</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 57</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 58</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 59</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 60</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 61</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 62</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 63</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 64</a></li>
+                    </ul>
+                    <button class="modal__close">Закрыть</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <main role="main" class="page__main">
+        <div class="container container--flex">
+            <aside class="aside">
+                <div class="aside__menu-list-wrapper">
+                    <a href="javascript:;" class="aside__actions-item">Акции</a>
+                    <ul class="aside__menu-list">
+                        <li class="aside__menu-item">
+                            <span class="aside__menu-title aside__menu-title--first">Межкомнатные</span>
+                            <ul class="aside__submenu">
+                                <li class="aside__submenu-item"><a href="javascript:;">Шпонированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Эмаль</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Экошпон</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива дуба</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">ПВХ</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинатин</a></li>
+                            </ul>
+                        </li>
+                        <li class="aside__menu-item">
+                            <span class="aside__menu-title">По типу</span>
+                            <ul class="aside__submenu">
+                                <li class="aside__submenu-item"><a href="javascript:;">Шпонированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Эмаль</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Экошпон</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива дуба</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">ПВХ</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинатин</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            
+            <div class="page__content content">
+
+                <section class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item"><a href="javascript:;">Гипермаркет «Дверка»</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Межкомнатные двери</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Шпонированные двери</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Шпонированные двери</a></li>
+                    </ul>
+                </section>
+                
+                <section class="product-item">
+                    <div class="product-item__top">
+                        <h1 class="product-item__title">Элегия Античный Орех Массив Ольхи</h1>
+                    </div>
+                    
+                    <div class="product-item__main">
+                        <div class="product-item__pics-section">
+                            <div class="product-item__main-picture-block">
+                                <a data-fancybox="gallery" href="img/product-item-test1.png"><img class="product-item__main-picture" src="img/product-item-test1.png" alt="НАЗВАНИЕ ТОВАРА" title="НАЗВАНИЕ ТОВАРА"></a>
+                            </div>
+                            <div class="product-item__secondary-pictures-block">
+                                <a data-fancybox="gallery" href="img/product-item-test2.png"><img src="img/product-item-test2.png" alt="НАЗВАНИЕ ТОВАРА" title="НАЗВАНИЕ ТОВАРА"></a>
+                                <a data-fancybox="gallery" href="img/product-item-test3.png"><img src="img/product-item-test3.png" alt="НАЗВАНИЕ ТОВАРА" title="НАЗВАНИЕ ТОВАРА"></a>
+                                <a data-fancybox="gallery" href="img/product-item-test4.png"><img src="img/product-item-test4.png" alt="НАЗВАНИЕ ТОВАРА" title="НАЗВАНИЕ ТОВАРА"></a>
+                            </div>
+                            <span class="product-item__pictures-increase-message">Нажмите на фото для увеличения</span>
+                        </div>
+                        
+                        <div class="product-item__characteristics">
+                            <form action="">
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Производитель:</span>
+                                    <span class="product-item__characteristics-value"><a href="#">Двери Ока (Белоруссия) и очень длинный текст для теста на переполнение контентом</a></span>
+                                </div>
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Материал:</span>
+                                    <span class="product-item__characteristics-value">Массив</span>
+                                </div>
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Цвет:</span>
+                                    <span class="product-item__characteristics-value">Орех</span>
+                                </div>
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Артикул:</span>
+                                    <span class="product-item__characteristics-value">8884</span>
+                                </div>
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Цена:</span>
+                                    <span class="product-item__characteristics-value product-item__characteristics-value--price">7 950 ₽</span>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Полотно:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="POLOTNO" id="char1">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="600">600мм*2000мм</option>
+                                                <option value="700">700мм*2000мм</option>
+                                                <option value="800">800мм*2000мм</option>
+                                                <option value="900">900мм*2000мм +1000 ₽</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Коробка Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="KOROBKA_MASSIV" id="char2">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Наличник Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="NALICHNIK_MASSIV" id="char3">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Наличник канилюрный Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="NALICHNIK_MASSIV" id="char4">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Наличник канилюрный Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="NALICHNIK_KAN_MASSIV" id="char5">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Карниз Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="KARNIZ_MASSIV" id="char6">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Добор Массив:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="DOBOR_MASSIV" id="char7">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Стандартная +2100 ₽</option>
+                                                <option value="2">Для двухстворчатой +2520 ₽</option>
+                                                <option value="3">Одна стойка +840 ₽</option>
+                                                <option value="4">Стандартная телескопическая +2350 ₽</option>
+                                                <option value="5">Для двухстворчатой телескопическая +2820 ₽</option>
+                                                <option value="6">Одна стойка телескопическая +940 ₽</option>
+                                            </select>
+                                        </div>
+                                        <input type="number" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__characteristics-line">
+                                    <span class="product-item__characteristics-key">Притворная планка:</span>
+                                    <div class="product-item__characteristics-fieldset">
+                                        <div class="product-item__characteristics-select">
+                                            <select name="DOBOR_MASSIV" id="char8">
+                                                <option value="null">Нажмите для выбора</option>
+                                                <option value="1">Одна планка +300 ₽</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__buttons">
+                                    <span class="price__label button button--gray">21 890 ₽</span>
+                                    <div class="product-item__buy-btn button">
+                                        <input type="number" value="1">
+                                        <button type="submit">Купить</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-item__modal-links">
+                                    <span class="product-item__modal-link product-item__modal-link--delivery js_modal-opener" data-modal-opener="delivery">Оперативная доставка</span>
+                                    <span class="product-item__modal-link product-item__modal-link--measurement js_modal-opener" data-modal-opener="measurement">Замер и установка</span>
+                                    <span class="product-item__modal-link product-item__modal-link--howorder js_modal-opener" data-modal-opener="howorder">Как сделать заказ</span>
+                                    <span class="product-item__modal-link product-item__modal-link--payways js_modal-opener" data-modal-opener="payways">Способы оплаты</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="product-item__colors-block">
+                        <h2 class="product-item__colors-block-title">Цветовые варианты</h2>
+                        <ul class="product-item__colors-list">
+                            <li class="product-item__color"><a href="#"><img src="img/product-item-color1.png" alt=""></a></li>
+                            <li class="product-item__color"><a href="#"><img src="img/product-item-color2.png" alt=""></a></li>
+                            <li class="product-item__color"><a href="#"><img src="img/product-item-color3.png" alt=""></a></li>
+                            <li class="product-item__color"><a href="#"><img src="img/product-item-color1.png" alt=""></a></li>
+                            <li class="product-item__color"><a href="#"><img src="img/product-item-color2.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <div class="tabs">
+                    <div class="tabs__buttons-wrapper">
+                        <button class="tabs__button tabs__button--active" data-tab-id="1">Аналогичные товары</button>
+                        <button class="tabs__button" data-tab-id="2">Описание</button>
+                        <button class="tabs__button--link"><a href="javascript:;">Как выбрать</a></button>
+                    </div>
+                    
+                    <div class="tabs__content-wrapper">
+                        <div class="tabs__content tabs__content--active" data-tab-id="1">
+                            <section class="catalog-leaders">
+                                <div class="catalog-leaders__item">
+                                    <div class="catalog-leaders__item-image-wrap">
+                                        <a href="javascript:;"><img src="img/door1.jpg" alt="Маргарита Стекло"></a>
+                                    </div>
+                                    <div class="catalog-leaders__item-info">
+                                        <h3 class="catalog-leaders__item-title"><a href="#">Маргарита Стекло</a></h3>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Материал</span>
+                                            <span class="catalog-leaders__item-info-value">Шпонированные</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цвет</span>
+                                            <span class="catalog-leaders__item-info-value">Орех</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цена</span>
+                                            <span class="catalog-leaders__item-info-value catalog-leaders__item-info-price">6 190 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="catalog-leaders__item">
+                                    <div class="catalog-leaders__item-image-wrap">
+                                        <a href="javascript:;"><img src="img/door2.jpg" alt="Маргарита Стекло"></a>
+                                    </div>
+                                    <div class="catalog-leaders__item-info">
+                                        <h3 class="catalog-leaders__item-title"><a href="#">Маргарита Стекло</a></h3>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Материал</span>
+                                            <span class="catalog-leaders__item-info-value">Шпонированные</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цвет</span>
+                                            <span class="catalog-leaders__item-info-value">Орех</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цена</span>
+                                            <span class="catalog-leaders__item-info-value catalog-leaders__item-info-price">6 190 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="catalog-leaders__item">
+                                    <div class="catalog-leaders__item-image-wrap">
+                                        <a href="javascript:;"><img src="img/door1.jpg" alt="Маргарита Стекло"></a>
+                                    </div>
+                                    <div class="catalog-leaders__item-info">
+                                        <h3 class="catalog-leaders__item-title"><a href="#">Маргарита Стекло</a></h3>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Материал</span>
+                                            <span class="catalog-leaders__item-info-value">Шпонированные и очень длинный текст для теста на переполнение контентом</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цвет</span>
+                                            <span class="catalog-leaders__item-info-value">Орех</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цена </span>
+                                            <span class="catalog-leaders__item-info-value catalog-leaders__item-info-price">6 190 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="catalog-leaders__item">
+                                    <div class="catalog-leaders__item-image-wrap">
+                                        <a href="javascript:;"><img src="img/door1.jpg" alt="Маргарита Стекло"></a>
+                                    </div>
+                                    <div class="catalog-leaders__item-info">
+                                        <h3 class="catalog-leaders__item-title"><a href="#">Маргарита Стекло и очень длинный текст для теста на переполнение контентом</a></h3>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Материал</span>
+                                            <span class="catalog-leaders__item-info-value">Шпонированные</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цвет</span>
+                                            <span class="catalog-leaders__item-info-value">Орех и очень длинный текст для теста на переполнение контентом</span>
+                                        </div>
+                                        <div class="catalog-leaders__item-info-line">
+                                            <span class="catalog-leaders__item-info-key">Цена</span>
+                                            <span class="catalog-leaders__item-info-value catalog-leaders__item-info-price">6 190 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        
+                        <div class="tabs__content" data-tab-id="2">
+                            
+                            <article class="article" itemscope itemtype="http://schema.org/Article">
+                                <div class="article__body" itemprop="articleBody mainEntityOfPage">
+                                    <p><strong>Материал:</strong> натуральный шпон дуба.</p>
+                                    <p>Дверь Квадро Каштан со стеклом 2 – это двери, облицованные шпоном дуба. С помощью
+                                        шпона дуба, в отличии от сращенного массива, возможно передать ровную текстуру
+                                        без сросток. Каркас исполнен из массива хвойных пород. Классический дизайн,
+                                        резные элементы и натуральный шпон дорого оцениваются зарубежными
+                                        производителями. Двери Белоруссии – бренд, который знают на территории России,
+                                        Украины, Белоруссии и других стран. Фирменный логотип изображающих Зубра можно
+                                        увидеть в 94 фирменных салонах по всей России.</p>
+                                    <p><strong>Полотно:</strong> Конструкция каркасная из сращенного массива сосны.
+                                        Стоевые: сращенный массив сосны. Накладка МДФ 3мм облицованная шпоном дуба.
+                                        Штапик (багет) из массива ольхи или березы. Сложное трехслойное лаковое покрытие
+                                        на основе акриловых материалов. Стекло 6-10мм (в зависимости от модели) белое
+                                        матовое, бронзовое матовое с пескоструйной обработкой. Конструкция фиксируется с
+                                        помощью стяжных болтов. Толщина полотна 40мм. Стандартные размеры 600x1900мм,
+                                        600х2000мм, 700х2000мм, 800х2000мм, 900х2000мм.</p>
+                                    <p><strong>Коробка: </strong>Сращенный массив сосны, облицованный шпоном дуба.
+                                        Уплотнитель из звукопоглощающего материала. Размер 80х40х2070мм. В коробке
+                                        предусмотрен паз под добор.</p>
+                                    <p><strong>Добор: </strong>Размер 90мм, 180мм. Материал ДСП.</p>
+                                    <p><strong>Наличник: </strong>Полукруглый. Сосна, облицованная шпоном дуба, размер
+                                        70х13х2150мм.</p>
+                                    <p><strong>Упаковка: </strong>Гофрокартон, мдф.</p>
+                                    <p><strong>Доступные цвета: </strong>Каштан.</p>
+                                </div>
+                                <button class="article__more-less-toggler">Развернуть</button>
+                            </article>
+                            <!-- Обязательные поля для микроразметки статьи -->
+                            <div class="hidden">
+                                <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                                    <img itemprop="url contentUrl" src="Адрес картинки - jpg или png" alt="Альтернативный текст картинки">
+                                    <meta itemprop="width" content="Ширина (число)">
+                                    <meta itemprop="height" content="Высота (число)">
+                                </span>
+                                
+                                <meta itemprop="datePublished" content="Дата в формате YYYY-MM-DD">
+                                <meta itemprop="dateModified" content="Дата в формате YYYY-MM-DD">
+                                
+                                <span style="display:none" class="hidden" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                                    <meta itemprop="name" content="Имя компании">
+                                    <meta itemprop="address" content="Адрес в свободном формате">
+                                    <meta itemprop="telephone" content="+78888888888 (в свободном формате)">
+                                    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+                                      <img style="display:none;" itemprop="url image" alt="logo" src="Адрес к логотипу - png или jpg">
+                                    </span>
+                                </span>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__copyright">
+                    <span>2012-2017 © ГИПЕРМАРКЕТ ДВЕРКА.<br></span>
+                    <span>Двери интернет магазин. Продажа, установка.</span>
+                </div>
+            
+                <div class="footer__addresses">
+                    <span>Москва, ул. Люблинская 96<br></span>
+                    <span>ст.М. Братиславская, Марьино</span>
+                </div>
+            
+                <div class="footer__phones">
+                    <span><a class="footer__phone" title="+ 7 (499) 755-64-12" href="tel:+74997556412">+7 (499) 755-64-12<br></a></span>
+                    <span><a class="footer__phone" title="+ 7 (499) 397-72-64" href="tel:+74993977264">+7 (499) 397-72-64</a></span>
+                </div>
+            </div>
+        
+            <div class="footer__social flex">
+            
+                <a href="javascript"><img src="img/footer_pay_icons.png" alt="Способы оплаты"></a>    
+
+            </div>
+        
+            <div class="footer__rules-text">
+                <p>Весь размещенный на сайте товар (изображения и описания) носит исключительно информационный характер и не
+                является договором публичной оферты. Изображения и цвет представленного товара могут незначительно
+                отличаться от оригинала продукции, в зависимости от разрешения и настроек вашего монитора, а также
+                условий освещения при съемке. Убедительная просьба для уточнения цвета и иных характеристик обращаться к
+                консультанту (менеджеру). Перед приемкой товара и его установкой необходимо произвести тщательный осмотр
+                товара.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal modal--hidden" data-modal-id="callback">
+        <div class="modal__window">
+        
+            <div class="modal-container">
+                <h2 class="modal__title">Заказать обратный звонок</h2>
+            
+                <div class="form">
+                    <p class="form__desc-block">Нет времени или возможности позвонить? Оставьте свой номер<br>
+                        телефона и наш менеджер свяжется с вами в любое удобное время.</p>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <label for="PHONE">Телефон: <span class="form__required-mark">*</span></label>
+                        </div>
+                        <div class="form__field-wrap">
+                            <input type="text" id="PHONE" name="PHONE" required>
+                            <span class="form__field-desc">Например, +7 926 869-72-57</span>
+                        </div>
+                    </div>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <span>Вопрос:</span>
+                        </div>
+                        <div class="form__field-wrap form__field-wrap--radios">
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_1">
+                                <label for="QUESTION_1">Оптовые покупки</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_2">
+                                <label for="QUESTION_2">Консультация</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_3">
+                                <label for="QUESTION_3">Сотрудничество</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_4">
+                                <label for="QUESTION_4">Другой вопрос</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <label for="SUITABLE_TIME">Удобное время<br> для звонка:</label>
+                        </div>
+                        <div class="form__field-wrap">
+                            <input type="text" id="SUITABLE_TIME" name="SUITABLE_TIME">
+                            <span class="form__field-desc">Например, «с 14 до 16 в среду, 12 ноября»</span>
+                        </div>
+                    </div>
+                
+                    <div class="form__buttons">
+                        <button type="submit" class="form__submit button">Отправить</button>
+                    </div>
+                
+                    <div class="form__attraction">
+                        <p>Вы также можете позвонить нам по телефону:
+                            <a href="tel:+74997556412">+7 (499) 755-64-12</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+    <div class="modal modal--hidden" data-modal-id="delivery">
+        <div class="modal__window">
+            <h2 class="modal__title">Оперативная доставка при интернет-магазине</h2>
+        
+            <div class="tabs">
+                <div class="tabs__buttons-wrapper">
+                    <button class="tabs__button tabs__button--active" data-tab-id="1">По Москве</button>
+                    <button class="tabs__button" data-tab-id="2">По ближайшему Подмосковью</button>
+                    <button class="tabs__button" data-tab-id="3">Рязань</button>
+                    <button class="tabs__button" data-tab-id="4">Регионы</button>
+                    <button class="tabs__button" data-tab-id="5">Условия</button>
+                </div>
+            
+                <div class="tabs__content-wrapper">
+                    <div class="tabs__content tabs__content--active" data-tab-id="1">
+                        <div class="article">
+                            <p>Cтоимость доставки в пределах МКАД – 1100 рублей.*</p>
+                            <small>*Стоимость доставки может уменьшаться или увеличиваться в зависимости от количества
+                                заказываемой продукции.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="2">
+                        <div class="article">
+                            <p>Cтоимость доставки за пределами МКАД – 1100 рублей + 50 руб/км.*</p>
+                            <small>*Стоимость доставки может уменьшаться или увеличиваться в зависимости от количества
+                                заказываемой продукции.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="3">
+                        <div class="article">
+                            <p>У жителей города Рязань есть возможность <a href="/">купить двери</a> через регионального
+                                партнера. Сроки доставки от 3-х до 14 рабочих дней. Оплата производится у регионального
+                                партнера при получении заказа. Также вы можете выбрать фурнитуру, заказать установку и
+                                доставку по месту жительства.</p>
+                        
+                            <span>+7 (499) 755-64-12 - городской (Москва)</span><br>
+                            <span>+7 (926) 495-71-94 - мобильный (Москва)</span>
+                            <p><a href="mailto:info@dverkadverka.ru">info@dverkadverka.ru</a></p>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="4">
+                        <div class="article">
+                            <p>Мы отправляем двери во все регионы России любой транспортной компанией.
+                                Бесплатная доставка до транспортной компании*:</p>
+                            <ul>
+                                <li>ПЭК;</li>
+                                <li>Деловые линии.</li>
+                            </ul>
+                            <small>*От 2-х дверей в комплекте. Доставка в другие транспортные компании – по
+                                договоренности.
+                            </small>
+                            <p>Подробную информацию о доставке в ваш регион уточняйте у менеджеров.</p>
+                            <span>+7 (499) 755-64-12 - городской (Москва)</span><br>
+                            <span>+7 (926) 495-71-94 - мобильный (Москва)</span>
+                            <p><a href="mailto:info@dverkadverka.ru">info@dverkadverka.ru</a></p>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="5">
+                        <div class="article">
+                            <ol>
+                                <li>
+                                    <h3>Условия доставки</h3>
+                                    <ul>
+                                        <li>Доставка осуществляется до подъезда. В случае невозможности доставки в
+                                            оговоренное время по не зависящим от продавца обстоятельствам (ограничения
+                                            движения по городу, автомобильные пробки, поломка автомобиля на маршруте и
+                                            т.п.), продавец уведомляет об этом покупателя и согласовывает время доставки в
+                                            более позднее время в текущий или другой день.
+                                        </li>
+                                        <li>Разгрузка в стоимость доставки не входит и оплачивается дополнительно.</li>
+                                        <li>Водитель связывается с клиентом по контактным номерам за час до доставки. Если
+                                            водитель не сможет дозвониться – доставка осуществляться не будет. Будьте
+                                            внимательны.
+                                        </li>
+                                        <li>Если при доставке возникает проблема с доступом к подъезду, то доставка до
+                                            подъезда обсуждается дополнительно.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>Срочная доставка</h3>
+                                    <ul>
+                                        <li>При необходимости срочной доставки в день заказа, вам необходимо согласовать
+                                            время и возможность доставки с оператором. Стоимость срочной доставки – 2200
+                                            рублей по Москве, 2200 рублей + 50 руб/км за пределами МКАД.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>Получение заказа</h3>
+                                    <ul>
+                                        <li>При получении заказа необходимо удостовериться, что заказ доставлен вам в полном
+                                            объеме, проверить комплектацию и расписаться в накладной..
+                                        </li>
+                                        <li>Простой курьера по вине покупателя при доставке в оговоренное время и место,
+                                            оплачивается покупателем из расчета: 30 минут бесплатно + 50 рублей за каждые 10
+                                            минут простоя.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>Отказ от товара</h3>
+                                    <ul>
+                                        <li>В случае если покупатель отказывается от приема товара надлежащего качества,
+                                            который был доставлен в указанное покупателем место и в согласованные с
+                                            покупателем сроки, стоимость доставки оплачивается покупателем в размере 1100
+                                            рублей по Москве или 1100 рублей + 50 руб/км, если доставка была за пределами
+                                            МКАД.
+                                        </li>
+                                        <li>В случае <strong>ошибки покупателя</strong> (размеры, модель, цвет) и отказа от
+                                            покупки взамен новой, покупатель оплачивает уже произведенную доставку и
+                                            вторичную.
+                                        </li>
+                                        <li>В случае если покупатель отказывается от приема товара <strong>ненадлежащего
+                                            качества</strong> (брак двери), то доставка замененного товара на надлежащий
+                                            производится силами продавца.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+    <div class="modal modal--hidden" data-modal-id="measurement">
+        <div class="modal__window">
+            <h2 class="modal__title">Замер и установка</h2>
+        
+            <div class="tabs">
+                <div class="tabs__buttons-wrapper">
+                    <button class="tabs__button tabs__button--active" data-tab-id="1">Установка</button>
+                    <button class="tabs__button" data-tab-id="2">Замер</button>
+                    <button class="tabs__button" data-tab-id="3">Заказать установку</button>
+                    <button class="tabs__button" data-tab-id="4">Вызвать замерщика</button>
+                </div>
+            
+                <div class="tabs__content-wrapper">
+                    <div class="tabs__content tabs__content--active" data-tab-id="1">
+                        <div class="article">
+                            <h3>Межконатные двери</h3>
+                            <strong>Стандартная установка*</strong>
+                            <div class="article__table-wrapper">
+                                <table>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Одна дверь (минимальный выезд мастера)</td>
+                                        <td>3 500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>От двух дверей</td>
+                                        <td>2 500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>От двух дверей (массив дуба, бука, эмаль)</td>
+                                        <td>2 950</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Распашная дверь (двустворчатая)</td>
+                                        <td>4 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Раздвижная дверь (одно полотно)</td>
+                                        <td>2 800</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Оформление проема (до 15 см)</td>
+                                        <td>1 600</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        
+                            <strong>Дополнительные работы</strong>
+                        
+                            <div class="article__table-wrapper">
+                                <table>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Установка комплекта доборов (до 15 см)</td>
+                                        <td>800</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Установка карниза, цоколя и розеток (одна сторона)</td>
+                                        <td>200 - 400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Установка фрамуги</td>
+                                        <td>1 500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Роспуск (корректировка) наличника по ширине</td>
+                                        <td>250 / шт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Сужение проема брусом (без стоимости материала)</td>
+                                        <td>300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Расширение проема до 100 мм</td>
+                                        <td>Цена договорная</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Врезка дополнительного ригеля, петли</td>
+                                        <td>200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Подрез коробки по толщине проема (один комплект)</td>
+                                        <td>1 600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Подпил двери по высоте</td>
+                                        <td>600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Установка дверного ограничителя</td>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Установка порога (без гарантии на истирание)</td>
+                                        <td>300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Врезка сантехнического или магнитного замка</td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Подрез коробки по толщине (м.п.)</td>
+                                        <td>300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Фрезеровка дверной коробки под доборный элемент</td>
+                                        <td>300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Доплата за монтаж дверей нестандартной высоты</td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Расходные материалы (пена монтажная, крепеж, шпильки)</td>
+                                        <td>250 / дверь</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Демонтаж одной межкомнатной двери</td>
+                                        <td>300 - 500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Повторный выезд мастера по ошибке клиента</td>
+                                        <td>1 500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Выезд мастера за МКАД</td>
+                                        <td>30 / км</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="/uploads/price.doc">Скачать прайс на установку межкомнатных дверей</a><br>
+                        
+                            <small>*Стандартная установка межкомнатной двери производится в подготовленный проем и включает
+                                в себя: сборку и установку коробки, врезку двух петель, врезку ручки с защелкой (врезка
+                                сложного замка оплачивается дополнительно), установку наличника с двух сторон.
+                                В стандартную установку раздвижных дверей входит монтаж верхнего бруса, монтаж верхней и
+                                нижней направляющих, установка роликов на дверь, установка нижнего ползунка, врезка ручек,
+                                регулировка готовой конструкции.
+                            </small>
+                        
+                            <h3>Входные двери</h3>
+                            <p>Уточняйте у менеджеров.</p>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="2">
+                        <div class="article">
+                            <h3>Замер межкомнатных дверей</h3>
+                            <span>По Москве – 500 рублей.</span><br>
+                            <span>За пределами МКАД – 500 рублей + 30 руб/км.</span>
+                            <p>
+                                <small>*Стоимость замера одной межкомнатной двери рассчитывается индивидуально. Уточняйте у
+                                    менеджеров магазина.
+                                </small>
+                            </p>
+                        
+                            <h3>Замер входных дверей</h3>
+                            <span>Уточняйте у менеджеров.</span>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="3">
+                        <section class="form">
+                            <form action="ЗАМЕР" class="form__inner">
+                                <div class="form__desc-block">
+                                    <p>Оставьте свои данные и с вами свяжется менеджер для уточнения времени установки. </p>
+                                    <small>Обратите внимание, что поля, с символом * обязательны к заполнению.</small>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="NAME">ФИО: <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="text" id="NAME" name="NAME" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="PHONE">Телефон: <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="number" id="PHONE" name="PHONE" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="ADDRESS">Адрес доставки:
+                                            <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <textarea name="ADDRESS" id="ADDRESS" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="SUITABLE_TIME">Удобное время для установки: </label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="text" id="SUITABLE_TIME" name="SUITABLE_TIME" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="DOORS_COUNT">Количество дверей:</label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="number" id="DOORS_COUNT" name="DOORS_COUNT" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__buttons">
+                                    <input type="submit" class="form__submit button button--red" value="Вызвать">
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    <div class="tabs__content" data-tab-id="4">
+                        <section class="form">
+                            <form action="УСТАНОВКА" class="form__inner">
+                                <div class="form__desc-block">
+                                    <p>Оставьте свои данные и с вами свяжется менеджер для уточнения времени замера. </p>
+                                    <small>Обратите внимание, что поля, с символом * обязательны к заполнению.</small>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="NAME_">ФИО: <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="text" id="NAME_" name="NAME_" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="PHONE_">Телефон: <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="number" id="PHONE_" name="PHONE_" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="ADDRESS_">Адрес доставки:
+                                            <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <textarea name="ADDRESS_" id="ADDRESS_" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="SUITABLE_TIME_">Удобное время для замера:
+                                            <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="text" id="SUITABLE_TIME_" name="SUITABLE_TIME_" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__field-block form__field-block--vertical">
+                                    <div class="form__label-wrap">
+                                        <label for="DOORS_COUNT_">Количество дверей:
+                                            <span class="form__required-mark">*</span></label>
+                                    </div>
+                                    <div class="form__field-wrap">
+                                        <input type="number" id="DOORS_COUNT_" name="DOORS_COUNT_" required>
+                                    </div>
+                                </div>
+                            
+                                <div class="form__buttons">
+                                    <input type="submit" class="form__submit button button--red" value="Вызвать">
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+            <div class="modal__overlay"></div>
+        </div>
+    </div>
+
+    <div class="modal modal--hidden" data-modal-id="howorder">
+        <div class="modal__window">
+            <h2 class="modal__title">Как заказать товар</h2>
+        
+            <div class="tabs">
+                <div class="tabs__buttons-wrapper">
+                    <button class="tabs__button tabs__button--active" data-tab-id="1">Как оформить заказ по телефону?
+                    </button>
+                    <button class="tabs__button" data-tab-id="2">Как оформить заказ через сайт?</button>
+                </div>
+            
+                <div class="tabs__content-wrapper">
+                    <div class="tabs__content tabs__content--active" data-tab-id="1">
+                        <div class="article">
+                            <h3>Как оформить заказ по телефону:</h3>
+                            <p>Вы можете получить консультацию и оставить заказ по телефону. <strong>Москва (499)
+                                755-64-12</strong>.</p>
+                            <p>Наши продавцы-консультанты внимательно выслушают вас, проконсультируют и примут заявку
+                                бесплатно и с пониманием.</p>
+                            <p>Оформление заказа с помощью электронной почты? Просто напишите пожелания к вашему заказу на
+                                <a href="mailto:info@dverkadverka.ru">info@dverkadverka.ru</a> и наши специалисты свяжутся с
+                                вами. Пожалуйста, не забывайте оставить контактный телефон.</p>
+                        </div>
+                    </div>
+                    <div class="tabs__content" data-tab-id="2">
+                        <div class="article">
+                            <h3>Как оформить заказ через сайт:</h3>
+                            <p>1. Вам необходимо выбрать товар и указать опции (размер полотна, комплект коробки, наличников
+                                и тд.(подробную информацию о комплектующих можно узнать в статье
+                                <a href="/articles/choice.html">Как выбрать</a>). Если ваши опции не совпадают или вы не
+                                знаете точных размеров и кол-ва единиц погоножа, оставьте поля пустыми, консультант свяжется
+                                с вами по телефону и уточнит. Не бойтесь заказывать, мы с радостью изменим заказ по вашему
+                                желанию. После выбора вы увидите конечную цену товара. Чтобы добавить товар в корзину
+                                нажмите кнопку «Купить».</p>
+                            <img src="img/how-order1.png" alt="Страница товара" width="100%">
+                            <p>2. Товар будет автоматически добавлен в вашу корзину. Затем вы сможете продолжить поиск по интернет-магазину и добавлять в вашу корзину еще столько товаров, сколько вы пожелаете. Если вдруг вам понадобилось убрать товар из корзины или поменять количество заказанного товара, вы можете в любой момент проверить, что находится в вашей корзине и внести необходимые изменения. Вы можете полностью очистить корзину и начать заново процесс ее заполнения. Если вы решили, что заказ полностью сформирован, то вам необходимо нажать кнопку "Оформить заказ", которая находится в нижней части вашей корзины.</p>
+                            <img src="img/how-order2.png" alt="Страница корзины" width="100%">
+                            <p>Чтобы оформить заказ, необходимо указать электронный адрес (Email), имя, телефон.</p>
+                            <img src="img/how-order3.png" alt="Оформление заказа" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+    <div class="modal modal--hidden" data-modal-id="payways">
+        <div class="modal__window">
+        
+            <div class="modal-container">
+                <article class="article">
+                    <h2>Безналичная оплата</h2>
+                    <ol>
+                        <li>Согласуйте с оператором заказ и получите уникальный номер для оплаты. Заказы оплачиваются только по этому номеру и только после согласования с оператором.</li>
+                        <li>Перейдите по ссылке «Оплатить заказ».</li>
+                        <li>Введите в графу «Номер счета» номер по счету полученный от оператора.</li>
+                        <li>Укажите способ оплаты:
+                            <ul>
+                                <li>Банковские карты;</li>
+                                <li>Яндекс.деньги;</li>
+                                <li>Webmoney;</li>
+                                <li>Альфа-клик, Сбербанк Онлайн;</li>
+                                <li>Masterpass;</li>
+                                <li>Промсвязьбанк;</li>
+                                <li>терминалы;</li>
+                                <li>или попросите оператора выставить счет (для физических или юридических лиц).</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <img src="img/payways-icons.png" alt="Способы оплаты" width="100%">
+                    <div class="form">
+                        <form action="" class="form__inner">
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="ACCOUNT_NUMBER">Номер счета: <span class="form__required-mark">*</span></label>
+                                </div>
+                                <div class="form__field-wrap">
+                                    <input type="number" id="ACCOUNT_NUMBER" name="ACCOUNT_NUMBER" required>
+                                </div>
+                            </div>
+    
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="SUM">Сумма: <span class="form__required-mark">*</span></label>
+                                </div>
+                                <div class="form__field-wrap">
+                                    <input type="number" id="SUM" name="SUM" required>
+                                </div>
+                            </div>
+    
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="PAYWAY">Способ оплаты: <span class="form__required-mark">*</span></label>
+                                </div>
+                                <div class="form__field-wrap form__field-wrap--select">
+                                    <select id="PAYWAY" name="PAYWAY">
+                                        <option value="1">Яндекс.Деньги</option>
+                                        <option value="2">Банковская карта/option>
+                                        <option value="3">Наличными через кассу или терминал</option>
+                                        <option value="4">WebMoney</option>
+                                        <option value="5">Альфа-Клик</option>
+                                        <option value="6">Сбербанк: оплата по СМС или Сбербанк Онлайн</option>
+                                        <option value="7">MasterPass</option>
+                                        <option value="8">Промсвязьбанк</option>
+                                        <option value="9">КупиВкредит (Тинькофф Банк)</option>
+                                        <option value="10">Доверительный платеж ("Куппи.ру")</option>
+                                    </select>
+                                </div>
+                            </div>
+    
+                            <div class="form__buttons">
+                                <button type="submit" class="form__submit button">Оплатить заказ</button>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+</div>
+
+<script src="js/script.min.js"></script>
+</body>
+</html>

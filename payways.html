@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Карточка товара детально</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<div class="page product-page">
+
+
+    <header class="header">
+        <div class="header__top container">
+            <div class="header__brand-block">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Магазин межкомнатных дверей Дверка" width="78" height="79">
+                    <h1>Гипермаркет дверей</h1>
+                </a>
+                <div class="header__brand-slogan">
+                    <span class="header__slogan-desc">Продажа межкомнатных и входных дверей от ведущих производителей.</span>
+                </div>
+            </div>
+            <div class="header__cart">
+                <a href="/cart.html">
+                    <div class="header__cart-label">
+                        <span class="header__cart-icon"></span>
+                        <span class="header__cart-info">Товаров <span class="header__goods-number">0</span><br>
+                        на сумму <span class="header__goods-price">0</span> ₽</span>
+                    </div>
+                </a>
+            </div>
+            <div class="header__contacts">
+                <span class="header__when-call">Звоните с 10.00 до 20.00</span>
+                <div class="header__phones-list">
+                    <a class="header__phones-item" href="tel:+74997556412">+7 (499) <span class="decorated">755-64-12</span></a>
+                    <a class="header__phones-item" href="tel:+74997556412">+7 (499) <span class="decorated">397-72-64</span></a>
+                </div>
+                <span class="header__callback-btn-holder">
+                    <a href="javascript:;" class="header__callback-btn js_modal-opener" data-modal-opener="callback">Обратный звонок</a>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation-mobile container">
+        <div class="navigation-mobile__togglers-wrapper">
+            <div class="navigation-mobile__toggler">
+                <span class="navigation-mobile__toggler--categories">Категории</span>
+            </div>
+            <div class="navigation-mobile__toggler">
+                <span class="navigation-mobile__toggler--menu">Меню</span>
+            </div>
+        </div>
+    
+        <ul class="navigation-mobile__categories navigation-mobile__categories--hidden">
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--actions">
+                <a href="javascript:;">Акции</a>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Межкомнатные</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">По типу</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">По цвету</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Входные</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation-mobile__categories-item navigation-mobile__categories-item--hasmenu">
+                <a href="javascript:;">Аксессуары</a>
+                <ul class="navigation-mobile__subcategories hidden">
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Шпонированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Эмаль</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинированные</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Экошпон</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Из массива дуба</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">ПВХ</a>
+                    </li>
+                    <li class="navigation-mobile__subcategories-item">
+                        <a href="javascript:;">Ламинатин</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    
+        <ul class="navigation-mobile__menu navigation-mobile__menu--hidden">
+            <li class="navigation-mobile__menu-item">
+                <a href="/about/">О компании</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/articles/">Статьи</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/articles/choice.html">Как выбрать</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/help/">Как заказать</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/installation/">Установка и замер</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/delivery/">Доставка</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/removal/">Самовывоз</a>
+            </li>
+            <li class="navigation-mobile__menu-item">
+                <a href="/contacts/">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="/about/" title="О компании">О компании</a></li>
+                <li class="navigation__list-item"><a href="/articles/" title="Статьи">Статьи</a></li>
+                <li class="navigation__list-item"><a href="/articles/choice.html" title="Как выбрать">Как выбрать</a></li>
+                <li class="navigation__list-item"><a href="/help/" title="Как заказать">Как заказать</a></li>
+                <li class="navigation__list-item"><a href="/installation/" title="Установка и замер">Установка и замер</a></li>
+                <li class="navigation__list-item"><a href="/delivery/" title="Доставка">Доставка</a></li>
+                <li class="navigation__list-item"><a href="/removal/" title="Самовывоз">Самовывоз</a></li>
+                <li class="navigation__list-item"><a href="/contacts/" title="Контакты">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="search">
+
+        <div class="container flex">
+            <div class="search__choose-maker-btn-holder">
+                <button class="search__choose-maker-btn js_modal-opener" data-modal-opener="makers">Выберите производителя</button>
+            </div>
+            <div class="search__form-wrapper">
+                <form action="" class="search__form">
+                    <input type="text" placeholder="Введите название..." class="search__form-field">
+                    <button type="submit" class="search__form-submit button">Поиск по каталогу</button>
+                </form>
+            </div>
+        
+            <div class="modal modal--hidden" data-modal-id="makers">
+                <div class="search__choose-maker-modal modal__window">
+                    <h2 class="modal__title">Выберите производителя</h2>
+                    <ul class="search__choose-maker-list">
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 1</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 2</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 3</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 4</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 5</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 6</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 7</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 8</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 9</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 10</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 11</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 12</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 13</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 14</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 15</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 16</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 17</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 18</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 19</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 20</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 21</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 22</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 23</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 24</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 25</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 26</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 27</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 28</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 29</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 30</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 31</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 32</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 33</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 34</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 35</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 36</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 37</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 38</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 39</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 40</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 41</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 42</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 43</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 44</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 45</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 46</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 47</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 48</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 49</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 50</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 51</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 52</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 53</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 54</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 55</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 56</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 57</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 58</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 59</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 60</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 61</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 62</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 63</a></li>
+                        <li class="search__choose-maker-list-item"><a href="#">Mario Rioli с врезанной фурнитурой 64</a></li>
+                    </ul>
+                    <button class="modal__close">Закрыть</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <main role="main" class="page__main">
+        <div class="container container--flex">
+            <aside class="aside">
+                <div class="aside__menu-list-wrapper">
+                    <a href="javascript:;" class="aside__actions-item">Акции</a>
+                    <ul class="aside__menu-list">
+                        <li class="aside__menu-item">
+                            <span class="aside__menu-title aside__menu-title--first">Межкомнатные</span>
+                            <ul class="aside__submenu">
+                                <li class="aside__submenu-item"><a href="javascript:;">Шпонированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Эмаль</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Экошпон</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива дуба</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">ПВХ</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинатин</a></li>
+                            </ul>
+                        </li>
+                        <li class="aside__menu-item">
+                            <span class="aside__menu-title">По типу</span>
+                            <ul class="aside__submenu">
+                                <li class="aside__submenu-item"><a href="javascript:;">Шпонированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Эмаль</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинированные</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Экошпон</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Из массива дуба</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">ПВХ</a></li>
+                                <li class="aside__submenu-item"><a href="javascript:;">Ламинатин</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            
+            <div class="page__content content">
+
+                <section class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item"><a href="javascript:;">Гипермаркет «Дверка»</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Межкомнатные двери</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Шпонированные двери</a></li>
+                        <li class="breadcrumbs__item"><a href="javascript:;">Шпонированные двери</a></li>
+                    </ul>
+                </section>
+    
+                <article class="article">
+                    <h2>Безналичная оплата</h2>
+                    <ol>
+                        <li>Согласуйте с оператором заказ и получите уникальный номер для оплаты. Заказы оплачиваются только по этому номеру и только после согласования с оператором.</li>
+                        <li>Перейдите по ссылке «Оплатить заказ».</li>
+                        <li>Введите в графу «Номер счета» номер по счету полученный от оператора.</li>
+                        <li>Укажите способ оплаты:
+                            <ul>
+                                <li>Банковские карты;</li>
+                                <li>Яндекс.деньги;</li>
+                                <li>Webmoney;</li>
+                                <li>Альфа-клик, Сбербанк Онлайн;</li>
+                                <li>Masterpass;</li>
+                                <li>Промсвязьбанк;</li>
+                                <li>терминалы;</li>
+                                <li>или попросите оператора выставить счет (для физических или юридических лиц).</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <img src="img/payways-icons.png" alt="Способы оплаты" width="100%">
+                    <div class="form">
+                        <form action="" class="form__inner">
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="ACCOUNT_NUMBER">Номер счета:</label>
+                                </div>
+                                <div class="form__field-wrap">
+                                    <input type="number" id="ACCOUNT_NUMBER" name="ACCOUNT_NUMBER" required>
+                                </div>
+                            </div>
+                
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="SUM">Сумма: </label>
+                                </div>
+                                <div class="form__field-wrap">
+                                    <input type="number" id="SUM" name="SUM" required>
+                                </div>
+                            </div>
+                
+                            <div class="form__field-block form__field-block--horizontal">
+                                <div class="form__label-wrap">
+                                    <label for="PAYWAY">Способ оплаты:</label>
+                                </div>
+                                <div class="form__field-wrap form__field-wrap--select">
+                                    <select id="PAYWAY" name="PAYWAY">
+                                        <option value="1">Яндекс.Деньги</option>
+                                        <option value="2">Банковская карта/option>
+                                        <option value="3">Наличными через кассу или терминал</option>
+                                        <option value="4">WebMoney</option>
+                                        <option value="5">Альфа-Клик</option>
+                                        <option value="6">Сбербанк: оплата по СМС или Сбербанк Онлайн</option>
+                                        <option value="7">MasterPass</option>
+                                        <option value="8">Промсвязьбанк</option>
+                                        <option value="9">КупиВкредит (Тинькофф Банк)</option>
+                                        <option value="10">Доверительный платеж ("Куппи.ру")</option>
+                                    </select>
+                                </div>
+                            </div>
+                
+                            <div class="form__buttons">
+                                <button type="submit" class="form__submit button">Оплатить заказ</button>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__copyright">
+                    <span>2012-2017 © ГИПЕРМАРКЕТ ДВЕРКА.<br></span>
+                    <span>Двери интернет магазин. Продажа, установка.</span>
+                </div>
+            
+                <div class="footer__addresses">
+                    <span>Москва, ул. Люблинская 96<br></span>
+                    <span>ст.М. Братиславская, Марьино</span>
+                </div>
+            
+                <div class="footer__phones">
+                    <span><a class="footer__phone" title="+ 7 (499) 755-64-12" href="tel:+74997556412">+7 (499) 755-64-12<br></a></span>
+                    <span><a class="footer__phone" title="+ 7 (499) 397-72-64" href="tel:+74993977264">+7 (499) 397-72-64</a></span>
+                </div>
+            </div>
+        
+            <div class="footer__social flex">
+            
+                <a href="javascript"><img src="img/footer_pay_icons.png" alt="Способы оплаты"></a>    
+
+            </div>
+        
+            <div class="footer__rules-text">
+                <p>Весь размещенный на сайте товар (изображения и описания) носит исключительно информационный характер и не
+                является договором публичной оферты. Изображения и цвет представленного товара могут незначительно
+                отличаться от оригинала продукции, в зависимости от разрешения и настроек вашего монитора, а также
+                условий освещения при съемке. Убедительная просьба для уточнения цвета и иных характеристик обращаться к
+                консультанту (менеджеру). Перед приемкой товара и его установкой необходимо произвести тщательный осмотр
+                товара.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal modal--hidden" data-modal-id="callback">
+        <div class="modal__window">
+        
+            <div class="modal-container">
+                <h2 class="modal__title">Заказать обратный звонок</h2>
+            
+                <div class="form">
+                    <p class="form__desc-block">Нет времени или возможности позвонить? Оставьте свой номер<br>
+                        телефона и наш менеджер свяжется с вами в любое удобное время.</p>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <label for="PHONE">Телефон: <span class="form__required-mark">*</span></label>
+                        </div>
+                        <div class="form__field-wrap">
+                            <input type="text" id="PHONE" name="PHONE" required>
+                            <span class="form__field-desc">Например, +7 926 869-72-57</span>
+                        </div>
+                    </div>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <span>Вопрос:</span>
+                        </div>
+                        <div class="form__field-wrap form__field-wrap--radios">
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_1">
+                                <label for="QUESTION_1">Оптовые покупки</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_2">
+                                <label for="QUESTION_2">Консультация</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_3">
+                                <label for="QUESTION_3">Сотрудничество</label>
+                            </div>
+                            <div class="form__field-radio-line">
+                                <input type="radio" name="QUESTION" ID="QUESTION_4">
+                                <label for="QUESTION_4">Другой вопрос</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="form__field-block form__field-block--horizontal">
+                        <div class="form__label-wrap">
+                            <label for="SUITABLE_TIME">Удобное время<br> для звонка:</label>
+                        </div>
+                        <div class="form__field-wrap">
+                            <input type="text" id="SUITABLE_TIME" name="SUITABLE_TIME">
+                            <span class="form__field-desc">Например, «с 14 до 16 в среду, 12 ноября»</span>
+                        </div>
+                    </div>
+                
+                    <div class="form__buttons">
+                        <button type="submit" class="form__submit button">Отправить</button>
+                    </div>
+                
+                    <div class="form__attraction">
+                        <p>Вы также можете позвонить нам по телефону:
+                            <a href="tel:+74997556412">+7 (499) 755-64-12</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="modal__close">Закрыть</button>
+        </div>
+        <div class="modal__overlay"></div>
+    </div>
+
+</div>
+
+<script src="js/script.min.js"></script>
+</body>
+</html>
